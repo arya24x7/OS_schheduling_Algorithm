@@ -7,7 +7,7 @@ print("Non-preemptive Scheduling is a CPU scheduling technique the process takes
       "Algorithms that are based on non-preemptive Scheduling are First Come First Serve(FCFS), Shortest Job first(SJF), and non-preemptive priority.")
 
 print("Choose the type of non pre-emptive algorithm you want to use")
-print("1.FCFS\n2.SJF\n3.PRIORITY")
+print("1.FCFS\n2.SJF")
 print("---------------------------")
 
 ch=int(input("Enter Your choice:"))
@@ -15,8 +15,6 @@ if(ch==1):
     fcfs.fcfs()
 elif(ch==2):
     sjf.sjf()
-elif(ch==3):
-    priority.priority()
 else:
     print("Invalid Choice")
 
